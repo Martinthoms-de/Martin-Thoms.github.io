@@ -23,6 +23,15 @@ body {
   background-size: cover;
 }
 
+.wolken {
+  background: linear-gradient(#99b0c680, #99b0c680), url("/img/hintergrund-wolken.jpeg") no-repeat fixed center;
+  background-size: cover;
+  a:not(.bg-dark a) {
+    color: darkblue;
+    text-shadow: 0 0 1em white;
+  }
+}
+
 .risse {
   background: linear-gradient(#fff8, #fff8), url("/img/hintergrund-grau-gold.jpeg") no-repeat fixed center;
   background-size: cover;
