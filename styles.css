@@ -47,6 +47,15 @@ body {
   }
 }
 
+.herbst {
+  background: linear-gradient(#69303680, #69303680), url("/img/hintergrund-herbst.png") no-repeat fixed center;
+  background-size: cover;
+  color: white;
+  a:not(.bg-dark a) {
+    color: white;
+    text-shadow: 0 0 1em white;
+  }
+}
 section:nth-of-type(2n) {
   background-color: #00000010;
 }
