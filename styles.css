@@ -13,6 +13,9 @@ body {
   }
 }
 
+.font-small {
+  font-size: 0.8em;
+}
 .gold {
   background: url("/img/hintergrund-gelb.jpeg") no-repeat fixed center;
   background-size: cover;
