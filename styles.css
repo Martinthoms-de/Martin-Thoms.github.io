@@ -59,8 +59,30 @@ body {
     text-shadow: 0 0 1em white;
   }
 }
+
+
+.wellen:not(.bg-dark) {
+  background: linear-gradient(#ffffff80, #ffffff80), url("/img/hintergrund-wellen.jpeg") no-repeat fixed center;
+  background-size: cover;
+  a:not(.bg-dark a) {
+    color: darkblue;
+    text-shadow: 0 0 1em white;
+  }
+}
+
+.wellen .bg-dark {
+  background: linear-gradient(#24331ea0, #24331ea0), url("/img/hintergrund-wellen.jpeg") no-repeat fixed center;
+  background-size: cover;
+  color: white;
+  a:not(.bg-dark a) {
+    color: white;
+    text-shadow: 0 0 1em white;
+  }
+}
+
+
 section:nth-of-type(2n) {
-  background-color: #00000010;
+  background-color: #00000020;
 }
 
 section.bg-dark:nth-of-type(2n+1) {
